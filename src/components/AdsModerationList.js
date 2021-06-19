@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import {useHistory} from 'react-router-dom'
-import {List, Space, Image} from 'antd';
+import {List, Image} from 'antd';
 import AdModerationService from "../services/AdModerationService";
 
 function AdsModerationList() {

@@ -21,7 +21,7 @@ function UserConfirmation() {
 
     useEffect(() => {
         sendUserConfirmationCode();
-    }, []);
+    });
 
     return (
         isUserConfirmed ? <Result

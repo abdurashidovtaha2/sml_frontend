@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import AuthorizationService from '../services/AuthorizationService'
 import {Card, Input, Button, Form, notification} from 'antd'
 import {UserOutlined, LockOutlined, MailOutlined, EyeTwoTone, EyeInvisibleOutlined} from '@ant-design/icons';
-import {useDispatch} from "react-redux";
 import {useHistory} from "react-router-dom";
 
 function UserCreation(callback) {

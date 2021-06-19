@@ -50,7 +50,7 @@ function AdProfile() {
 
     useEffect(() => {
         getProfileInfoById();
-    }, [])
+    });
 
     return (
         profileInfo !== null
