@@ -8,4 +8,4 @@ deploy:
   local_dir: build
   keep_history: true
 on:
-  branch: master
+  branch: main
