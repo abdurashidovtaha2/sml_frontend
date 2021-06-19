@@ -49,7 +49,7 @@ function AdProfile() {
 
 
     useEffect(() => {
-        getProfileInfoById()
+        getProfileInfoById();
     }, [])
 
     return (

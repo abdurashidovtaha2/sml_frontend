@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import {useHistory} from 'react-router-dom'
 import {List, Space, Image} from 'antd';
-import {EyeOutlined} from '@ant-design/icons';
 import AdModerationService from "../services/AdModerationService";
 
 function AdsModerationList() {
@@ -10,12 +9,12 @@ function AdsModerationList() {
 
     const [listLoading, setListLoading] = useState(false);
 
-    const IconText = ({icon, text}) => (
-        <Space>
-            {React.createElement(icon)}
-            {text}
-        </Space>
-    );
+    // const IconText = ({icon, text}) => (
+    //     <Space>
+    //         {React.createElement(icon)}
+    //         {text}
+    //     </Space>
+    // );
 
     function getAllAds() {
         setListLoading(true);

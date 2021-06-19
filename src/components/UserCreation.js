@@ -6,7 +6,7 @@ import {useDispatch} from "react-redux";
 import {useHistory} from "react-router-dom";
 
 function UserCreation(callback) {
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
     const history = useHistory();
 
     const cardStyle = {

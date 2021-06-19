@@ -90,6 +90,7 @@ function AdCreation() {
                 setCategoriesMap(data.categories);
                 setCategories(data.categories);
             }, (error) => {
+                console.log(error);
             })
     }, []);
 
