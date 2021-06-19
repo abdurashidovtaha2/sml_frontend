@@ -85,9 +85,9 @@ function Login(callback) {
                         </Form.Item>
                     </Form>
                 </Card>
-                <div style={{marginTop: '20px', textAlign: 'center'}}>Еще не зарегистрировались? <a onClick={() => {
+                <div style={{marginTop: '20px', textAlign: 'center'}}>Еще не зарегистрировались? <button onClick={() => {
                     history.push('/user-creation');
-                }}>Зарегистрируйтесь.</a></div>
+                }}>Зарегистрируйтесь.</button></div>
             </div>
         </div>
     )

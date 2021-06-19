@@ -45,16 +45,16 @@ function Header() {
                                     {
                                         userCredentials && userCredentials.userType === 'admin'
                                             ? <Menu.Item key={1}>
-                                                <a onClick={() => {
+                                                <button onClick={() => {
                                                     history.push('/ad-moderation')
                                                 }}>
                                                     <OrderedListOutlined/> Модерация
-                                                </a>
+                                                </button>
                                             </Menu.Item>
                                             : null
                                     }
                                     <Menu.Item key={2}>
-                                        <a onClick={() => {
+                                        <button onClick={() => {
                                             Modal.confirm({
                                                 title: 'Подтверждение',
                                                 icon: <LogoutOutlined/>,
@@ -68,7 +68,7 @@ function Header() {
                                             });
                                         }}>
                                             <LogoutOutlined/> Выйти
-                                        </a>
+                                        </button>
                                     </Menu.Item>
                                 </Menu>)
                             }>
@@ -81,18 +81,18 @@ function Header() {
                             : <Dropdown placement="bottomRight" overlay={
                                 (<Menu>
                                     <Menu.Item key={1}>
-                                        <a onClick={() => {
+                                        <button onClick={() => {
                                             history.push('/login')
                                         }}>
                                             <LoginOutlined/> Вход
-                                        </a>
+                                        </button>
                                     </Menu.Item>
                                     <Menu.Item key={2}>
-                                        <a onClick={() => {
+                                        <button onClick={() => {
                                             history.push('/user-creation')
                                         }}>
                                             <FormOutlined/> Регистрация
-                                        </a>
+                                        </button>
                                     </Menu.Item>
                                 </Menu>)
                             }>
