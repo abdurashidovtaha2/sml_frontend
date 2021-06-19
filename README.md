@@ -1,1 +1,1 @@
-An application for posting ads! GH-pages
+An application for posting ads! GH-pages!
